@@ -1,0 +1,49 @@
+/* Center the form container */
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form heading */
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Margin for form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style for input fields */
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+.btn-primary {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style for message box */
+.alert {
+  margin-top: 10px; /* Adjusts the space between message and inputs */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}

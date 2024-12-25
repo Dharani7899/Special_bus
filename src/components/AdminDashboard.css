@@ -1,0 +1,118 @@
+.admin-dashboard-container {
+  padding: 20px; /* Keep the padding */
+  margin: 0; /* Reset any margins */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Add this if needed for positioning */
+  top: 0; /* Ensures it's at the top */
+}
+
+
+.dashboard-title {
+  font-size: 28px;
+  color: #2f6a31;
+  text-align: center;
+  margin: 0; /* Remove all margins */
+}
+
+.dashboard-title {
+  font-size: 28px;
+  color: #2f6a31;
+  text-align: center;
+  margin: 0;
+  /* Increased margin for better spacing */
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between; /* Space buttons evenly */
+  margin-bottom: 20px; /* Spacing between buttons and table */
+}
+
+.dropdown {
+  flex: 1; /* Allow dropdown to grow */
+  margin-right: 10px; /* Space between dropdown and buttons */
+}
+
+.btn {
+  flex: 0 0 auto; /* Prevent buttons from stretching */
+  margin: 0 5px; /* Margin around buttons */
+  padding: 10px 15px; /* Increased padding for better click area */
+  font-size: 14px; /* Font size for buttons */
+  border-radius: 5px; /* Slightly rounded corners for buttons */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white; /* Text color */
+}
+
+.btn-success {
+  background-color: #28a745; /* Bootstrap success color */
+  color: white; /* Text color */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* Text color */
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px; /* Spacing above the table */
+  border-collapse: collapse; /* Collapse borders for table */
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #2f6a31; /* Table header color */
+  color: #fff;
+}
+
+.table td {
+  padding: 12px;
+  border: 1px solid #dee2e6; /* Table cell borders */
+}
+
+.modal-dialog {
+  max-width: 500px;
+  align-content: center; /* Maximum width for the modal */
+}
+
+.modal-content {
+  border-radius: 8px; /* Rounded corners for the modal */
+}
+
+.modal-header {
+  border-bottom: none; /* No border on modal header */
+}
+
+.modal-body {
+  padding: 20px; /* Padding in modal body */
+}
+
+.alert {
+  margin-bottom: 20px; /* Margin below alert */
+}
+
+/* Custom styles for dropdown */
+.dropdown-menu {
+  max-height: 200px; /* Set maximum height for dropdown */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
+  .dropdown {
+    margin-bottom: 10px; /* Margin below dropdown */
+  }
+}

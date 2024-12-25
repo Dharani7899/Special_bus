@@ -1,0 +1,5 @@
+.dropdown-scrollable {
+  max-height: 200px; /* Set the desired max height */
+  overflow-y: auto;
+  /* Enable vertical scroll */
+}
